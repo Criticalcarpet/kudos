@@ -7,15 +7,81 @@
     <link rel="shortcut icon" href="./static/kudos.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/cursor.css" />
+    <link rel="stylesheet" href="./css/scroll.css" />
+    <link rel="stylesheet" href="./css/cards.css" />
+
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./js/particle.js" type="module"></script>
+    <script src="./js/cursor.js" type="module"></script>
   </head>
   <body>
-    
-      <div id="content">
-        <h1>Kudos</h1>
-      </div>
-    </div>
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
     <div id="particles-js"></div>
+    <section class="landing">
+      <div class="container">
+        <h1 class="kudos-title" data-cursor="pointer2">Kudos</h1>
+      </div>
+      <a href="#welcome" data-cursor="pointer2"
+        ><img
+          src="./static/arrow-white.png"
+          alt="scroll-down"
+          id="scroll-down"
+          data-cursor="pointer2"
+      /></a>
+    </section>
+    <section id="welcome">
+      <div class="welcome-container">
+        <div class="about-us">
+          <div class="inner">
+            <h1 class="about-us-title" data-cursor="pointer2">
+              <u data-cursor="pointer2">About Us</u>
+            </h1>
+            <p class="about-us-text" data-cursor="pointer">
+              We are a thriving community that brings together individuals from
+              all walks of life. Our mission is to provide a platform where
+              hardworking individuals and those who prefer a laid-back approach
+              can connect, collaborate, and share their unique experiences. We
+              value dedication, creativity, and the joy of exploration for World
+              Zero. <br /><br />
+              At Kudos & Swift, we envision a world where gamers of all
+              backgrounds come together in harmony, celebrating their shared
+              passion for gaming.
+            </p>
+          </div>
+        </div>
+        <div class="take-break">
+          <div class="inner">
+            <h1 class="about-us-title" data-cursor="pointer2">
+              <u data-cursor="pointer2">Let's take a Break !</u>
+            </h1>
+            <p class="about-us-text" data-cursor="pointer">
+              Take a break from the daily grind and dive into our exclusive
+              Minecraft server (Java and Bedrock supported), with exciting
+              additions like a hub, smp, and bedwars-skywars coming soon!
+            </p>
+          </div>
+        </div>
+        <div class="why-us">
+          <div class="inner">
+            <h1 class="about-us-title" data-cursor="pointer2">
+              <u data-cursor="pointer2">Why Join Us ?</u>
+            </h1>
+            <p class="about-us-text" data-cursor="pointer">
+              What sets Kudos & Swift apart you may ask? Whether you're a
+              dedicated grinder looking to conquer new challenges or someone who
+              enjoys a more relaxed gaming experience, there's a place for you
+              here. <br />
+              <br />
+              By becoming a member of Kudos & Swift, you'll gain access to a
+              supportive community that shares your love for gaming. Whether
+              you're seeking teammates for intense battles or simply want to
+              unwind and have fun, you'll find like-minded individuals here.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
